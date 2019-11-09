@@ -1,0 +1,19 @@
+#! /bin/bash -x
+
+y=1;
+z=2;
+x=$((RANDOM%3))
+rateperhour=25;
+ 
+case x in y)
+ 
+	echo employee is present
+        workinghours=10
+z)
+	workinghours=4 
+else
+  	echo employee is absent
+  	workinghours=0
+fi 
+
+salary=$(($workinghours*$rateperhour));
