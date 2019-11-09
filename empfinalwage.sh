@@ -5,6 +5,6 @@ if [ $value -eq $value ]
 then 
   echo employee is present 
  else
-  echo = employee is absent
+  echo  employeeeeeee is absent
 fi
 #to check of emp status
