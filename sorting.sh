@@ -1,5 +1,7 @@
 #!/bin/bash -x
+
 declare -A Test
+
 
 read  -p "enter the no . of a: " a
 read -p "enter the value of b: " b
