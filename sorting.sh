@@ -9,6 +9,6 @@ Test[Case1]=$(( ($a + $b) * $c ))
  echo ${Test[Case1]}
 Test[Case2]=$(( ($a * $b) + $c ))
 echo ${Test[Case2]} 
-
-
+Test[Case3]=$(( ($c + $a) / $b ))
+echo ${Test[Case3]}
 
